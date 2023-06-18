@@ -18,6 +18,32 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        filename: 'index.html',
+        chunks: ['main']
+      }),
+      new WebpackPwaManifest({
+        name: 'WriteChoice',
+        short_name: 'App',
+        background_color: '#ffffff',
+        fingerprints: false,
+        inject: true,
+        start_url: '/',
+        publicPath: '/',
+        crossorigin: 'use-credentials', //can be null, use-credentials or anonymous
+        icons: [
+          {
+            src: path.resolve('src/images/logo.png'),
+            sizes: [96, 128, 192, 256, 384, 512], // multiple sizes
+            destination: path.join('assets', 'icons')
+          },
+        ]
+      }),
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: './src-sw.js',
+      })
       
     ],
 
