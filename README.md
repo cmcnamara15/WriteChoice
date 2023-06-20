@@ -29,20 +29,18 @@ This project represents a culmination of several advanced web development concep
 [Repository URL](https://github.com/cmcnamara15/WriteChoice)<br />
 
 ## Installation
-<br />
+Deployment: The application is deployed on Heroku. Visit the Heroku link to access the live application.<br />
 
 ## Usage Information
 Launch: Access the text editor through the browser by visiting the deployed link. If you want to use it offline, add the application to your home screen. On supported devices, the browser will prompt you to install the application.
 
-Creating a new document: Click on the "New Document" button or select the appropriate option from the menu. A new blank text editing space will appear, where you can start typing your document.
-
-Editing a document: Just click inside the text editing space and start typing. The text editor will save your progress in real-time, using various data persistence techniques to ensure that your work is not lost.
+Upon Opening: Once the text editor is opened, you'll find that IndexedDB has immediately created a database storage. When content is entered and you click
+out of the DOM window you'll find that the content has been saved in IndexedDB.
 
 Saving your document: No need to manually save your document - the application automatically saves your work in real time. Your document is stored safely in an IndexedDB database.
 
 Accessing your document offline: If you are offline, you can still access your saved documents. Just open the application, and your documents will be available for you to view and edit. Any changes you make while offline will be saved and synced when you are back online.
 
-Deployment: The application is deployed on Heroku. Visit the Heroku link to access the live application.
 <br />
 
 ## Contribution Guidelines 
@@ -57,6 +55,7 @@ If you have any questions please feel free to reach out.<br />
 
 Github: [cmcnamara15](https://github.com/cmcnamara15)<br />
 Email: cmcnamara1991@icloud.com
+LinkdIn: [cmcnamara15](https://www.linkedin.com/in/chris-mcnamara1991/)
 
 ## Screenshots
 
