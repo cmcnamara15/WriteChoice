@@ -26,6 +26,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         name: 'WriteChoice',
         short_name: 'App',
+        description: 'A simple text editor that runs in the browser.',
         background_color: '#ffffff',
         fingerprints: false,
         inject: true,
