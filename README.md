@@ -62,18 +62,15 @@ LinkdIn: [cmcnamara15](https://www.linkedin.com/in/chris-mcnamara1991/)
 The following screenshots shows the apps functionality.<br />
 
 
-<!-- ## Node in terminal<br />
+## J.A.T.E open in browser<br />
 
-![Screenshot of the program running in the terminal](./assets/screenshot1.png)
+![Screenshot of the program running](./client/src/images/exampleOne.png)
 
-## Generated output file<br />
+<br />
 
-![Screenshot of output example](./assets/screenshot2.png)
+![Screenshot of the program running](./client/src/images/exampleTwo.png)
 
-## Failed Test result<br />
+<br />
 
-![Example of failed test](./assets/failedtest.png)
+![Screenshot of the program running](./client/src/images/examplethree.png)
 
-## Inquirer prompts complete<br />
-
-![Example of passed test](./assets/passedtest.png) -->
